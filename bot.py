@@ -48,7 +48,7 @@ async def save_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main bot setup
 if __name__ == "__main__":
-    application = ApplicationBuilder().token("8005999110:AAHz5aDnOpMzGnsd0VlJymcIDqJ9s1jPTTc").build()
+    application = ApplicationBuilder().token("8005999110:AAHz5aDnOpMzcmSdYUilymCDIq0J95I71Tc").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("all", broadcast))
